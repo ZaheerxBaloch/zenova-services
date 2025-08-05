@@ -5,14 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact Zenova</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
 <body>
+  <div id="preloader">Zenova is loading...</div>
+
   <header class="hero">
-    <h1>Contact Us</h1>
-    <p>Let's build your dream project</p>
+    <h1 data-aos="fade-down">Contact Us</h1>
+    <p data-aos="fade-up">Let's build your dream project</p>
   </header>
 
-  <section class="contact-form">
+  <section class="contact-form" data-aos="fade-up">
     <form action="mailto:youremail@example.com" method="POST" enctype="text/plain">
       <input type="text" placeholder="Your Name" required />
       <input type="email" placeholder="Your Email" required />
@@ -22,8 +25,13 @@
     </form>
   </section>
 
+  <a href="https://wa.me/923022172005" class="whatsapp-float" target="_blank">💬</a>
+
   <footer>
     <p>WhatsApp: <a href="https://wa.me/923001234567" target="_blank">Chat Now</a></p>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
