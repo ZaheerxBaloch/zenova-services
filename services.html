@@ -5,41 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zenova | Services</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
 <body>
+  <div id="preloader">Zenova is loading...</div>
+
   <header class="hero">
-    <h1>Our Services</h1>
-    <p>High-tech design & development</p>
+    <h1 data-aos="fade-up">Our Services</h1>
+    <p data-aos="fade-up">High-tech design & development</p>
   </header>
 
   <section class="services">
-    <div class="card">
+    <div class="card" data-aos="fade-up">
       <h3>🌐 Web Design</h3>
       <p>Landing pages, portfolios, business sites</p>
       <span>PKR 4,999+</span>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up">
       <h3>📱 App UI Design</h3>
       <p>Mobile interfaces with modern glow</p>
       <span>PKR 6,500+</span>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="fade-up">
       <h3>🤖 AI Integration</h3>
       <p>Chatbots, AI setup, GPT solutions</p>
       <span>PKR 9,999+</span>
     </div>
 
-    <div class="card">
+    <div class="card" data-aos="zoom-in">
       <h3>🛠️ Nova OS Customization</h3>
-      <p>Nova Ring & Watch OS services</p>
+      <p>Custom UI for Nova Ring & Watch, offline AI tweaks, prototype UI builds.</p>
       <span>PKR 3,000+</span>
     </div>
   </section>
 
+  <a href="https://wa.me/923001234567" class="whatsapp-float" target="_blank">💬</a>
+
   <footer>
     <p>Need help? <a href="contact.html">Contact us</a></p>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
